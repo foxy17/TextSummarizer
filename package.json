@@ -1,0 +1,18 @@
+{
+  "name": "text",
+  "version": "1.0.0",
+  "description": "text summariztion",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "stop": "pkill --signal SIGINT dashboard"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  }
+}
